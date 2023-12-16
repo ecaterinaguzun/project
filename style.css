@@ -9,23 +9,26 @@ body {
     margin: 0 auto;
 }
 
+
+
 #about {
     padding: 40px 0;
 }
 
 .about-content {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.text {
-    max-width: 60%; /* Adjust as needed */
-}
+.about-content p {
+    max-width: 60%; 
+    margin-right: 20px; 
 
-.image img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+.about-image {
+    max-width: 40%;
     height: auto;
 }
+
 
 header {
     background-color: #451952;
