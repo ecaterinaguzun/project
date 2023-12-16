@@ -86,6 +86,10 @@ h1{
     font-family: 'Kaoly Demo', cursive;
 }
 
+h2, h3{
+    color: #9E4784;
+}
+
 nav {
     background-color: #624F82;
     overflow: hidden;
