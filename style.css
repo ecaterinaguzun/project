@@ -265,3 +265,54 @@ footer button {
 footer button:hover {
     background-color: #662549;
 }
+
+
+    /* Add this to your existing style.css file */
+
+#experience {
+    padding: 40px 0;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line {
+    border-left: 2px solid #451952; /* Adjust the color as needed */
+    height: 100%;
+    margin-right: 20px; /* Adjust the space between the line and text */
+}
+
+.info {
+    max-width: 80%; /* Adjust as needed */
+}
+
+.info h3 {
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+li::before {
+    content: '\2022'; /* Bullet character */
+    color: #451952; /* Adjust the color as needed */
+    font-size: 20px;
+    position: absolute;
+    left: -15px;
+}
+
