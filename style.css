@@ -63,12 +63,14 @@ body {
     max-width: 100%;
     width: 150px;
     margin-left: 20px;
+    float: right;
 }
 
 
 .about-content p {
     max-width: 60%;
     margin-right: 20px;
+    float:left;
 }
 
 
