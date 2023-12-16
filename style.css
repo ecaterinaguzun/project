@@ -80,11 +80,12 @@ header {
 }
 
 h1, h2, h3{
-    font-family: 'Kaoly Demo', cursive;
+    font-family: 'Biospace', cursive;
 }
 
 h1{
     color: #EDE4FF;
+    font-family: 'Kaoly Demo', cursive;
 }
 
 nav {
