@@ -143,3 +143,15 @@ button {
 button:hover {
     background-color: #662549;
 }
+
+about-content {
+    display: flex;
+    flex-direction: row-reverse; /* Change to 'row' if you want the image on the left */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-left: 20px; /* Adjust the margin as needed */
+}
