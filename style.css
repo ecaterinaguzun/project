@@ -1,41 +1,49 @@
+@font-face {
+    font-family: 'Kaoly Demo';
+    src: url('KaolyDemo-Regular.ttf') format('truetype'); /* Update the path accordingly */
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    font-family: 'Kaoly Demo', cursive;
-}
-
-.container {
+container {
     width: 80%;
     margin: 0 auto;
 }
 
 header {
-    background-color: #FFC6AC;
-    color: #333;
+    background-color: #451952;
+    color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
+h1 {
+    color: #AE445A;
+    font-family: 'Kaoly Demo', cursive; /* Apply Kaoly Demo font */
+}
+
 nav {
-    background-color: #9E9FA5;
+    background-color: #662549;
     overflow: hidden;
 }
 
 nav a {
     float: left;
     display: block;
-    color: #FFF6DC;
+    color: #AE445A;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #C4C1A4;
+    background-color: #F39F5A;
     color: #fff;
 }
 
@@ -44,7 +52,7 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #451952;
 }
 
 ul {
@@ -61,7 +69,7 @@ li {
 }
 
 footer {
-    background-color: #333;
+    background-color: #662549;
     color: #fff;
     text-align: center;
     padding: 10px 0;
