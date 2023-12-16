@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-family: 'Kaoly Demo', cursive;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
