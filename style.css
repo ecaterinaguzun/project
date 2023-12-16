@@ -9,6 +9,24 @@ body {
     margin: 0 auto;
 }
 
+#about {
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 60%; /* Adjust as needed */
+}
+
+.image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+}
+
 header {
     background-color: #451952;
     color: #fff;
