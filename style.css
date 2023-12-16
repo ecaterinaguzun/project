@@ -45,8 +45,7 @@ header {
     text-align: center;
 }
 
-h1 {
-    color: #EDE4FF;
+h1, h2, h3{
     font-family: 'Kaoly Demo', cursive;
 }
 
