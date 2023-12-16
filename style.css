@@ -22,21 +22,21 @@ h1 {
 }
 
 nav {
-    background-color: #662549;
+    background-color: #5C4B99;
     overflow: hidden;
 }
 
 nav a {
     float: left;
     display: block;
-    color: #AE445A;
+    color: #66347F;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #F39F5A;
+    background-color: #9F91CC;
     color: #fff;
 }
 
@@ -62,7 +62,7 @@ li {
 }
 
 footer {
-    background-color: #662549;
+    background-color: #322653;
     color: #fff;
     text-align: center;
     padding: 10px 0;
