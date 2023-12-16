@@ -20,10 +20,44 @@ body {
     align-items: center;
 }
 
-.project img {
-    max-width: 50%;
-    height: auto;
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
 }
+
+
+.project {
+    width: 18rem;
+    margin: 20px;
+}
+
+.project img {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+
+.project-title {
+    margin-top: 10px;
+}
+
+
+.project-description {
+    height: 80px; 
+    overflow: hidden; 
+}
+
+
+@media (max-width: 768px) {
+    .project {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
 
 .about-image {
     max-width: 100%;
