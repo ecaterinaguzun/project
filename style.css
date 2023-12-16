@@ -169,18 +169,7 @@ button:hover {
     background-color: #662549;
 }
 
-.about-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.about-image {
-    max-width: 100%;
-    width: 150px;
-    margin-left: 20px;
-}
 
 footer {
     background-color: #662549;
@@ -188,11 +177,7 @@ footer {
     padding: 20px 0;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 
 .footer-info,
 .footer-links,
