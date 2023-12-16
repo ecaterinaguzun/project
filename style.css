@@ -20,6 +20,11 @@ body {
     align-items: center;
 }
 
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
 .about-image {
     max-width: 100%;
     width: 150px;
