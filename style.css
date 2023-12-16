@@ -67,15 +67,26 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+section#about {
+    margin-bottom: 40px; 
+}
+
 ul.sparkly-bullets {
     list-style: none;
     padding: 0;
+    margin-top: 10px;
+}
+
+ul.sparkly-bullets li {
+    margin-bottom: 8px; 
 }
 
 ul.sparkly-bullets li::before {
     content: '✦';
-    color: #AE445A; /* You can adjust the color as needed */
+    color: #AE445A; 
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-}
+    margin-right: 8px; 
+
