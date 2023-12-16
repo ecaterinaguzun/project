@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    color: #AE445A;
+    color: #EDE4FF;
     font-family: 'Kaoly Demo', cursive;
 }
 
@@ -66,4 +66,16 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+ul.sparkly-bullets {
+    list-style: none;
+    padding: 0;
+}
+
+ul.sparkly-bullets li::before {
+    content: '✦';
+    color: #AE445A; /* You can adjust the color as needed */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
