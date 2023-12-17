@@ -224,13 +224,9 @@ footer {
 }
 
 .social-links {
-    display: flex;
     align-items: center;
 }
 
-.social-links a {
-    margin-right: 10px;
-}
 
 .social-links img {
     width: 20px;
