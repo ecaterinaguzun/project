@@ -12,7 +12,7 @@ body {
 
 .experience-item .line {
     position: absolute;
-    right: 0;
+    left: 0;
     background-color: purple;
     width: 2px;
     height: 100%;
