@@ -10,7 +10,7 @@ body {
 
 .experience-item .line {
     position: absolute;
-    left: 50%;
+    float:left;
     background-color: purple;
     width: 2px;
     height: 100%;
@@ -265,6 +265,7 @@ footer {
 
 #experience {
     padding: 40px 0;
+    
 }
 
 .experience-item {
