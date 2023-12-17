@@ -6,7 +6,6 @@ body {
 
 .experience-item {
     position: relative;
-    float:right;
         }
 
 .experience-item .line {
@@ -15,7 +14,6 @@ body {
     background-color: purple;
     width: 2px;
     height: 100%;
-    float:left;
 
 }
 
