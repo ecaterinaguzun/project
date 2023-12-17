@@ -6,16 +6,15 @@ body {
 
 .experience-item {
     position: relative;
-}
+        }
 
 .experience-item .line {
     position: absolute;
-    float:left;
+    right: 0;
     background-color: purple;
     width: 2px;
     height: 100%;
-    transform: translateX(-50%);
-}
+        }
 
 
 
