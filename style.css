@@ -4,6 +4,21 @@ body {
     padding: 0;
 }
 
+.experience-item {
+    position: relative;
+}
+
+.experience-item .line {
+    position: absolute;
+    left: 50%;
+    background-color: purple;
+    width: 2px;
+    height: 100%;
+    transform: translateX(-50%);
+}
+
+
+
 .container {
     width: 80%;
     margin: 0 auto;
