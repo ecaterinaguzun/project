@@ -26,6 +26,7 @@ body {
 
 #about {
     padding: 40px 0;
+    
 }
 
 .about-content {
@@ -260,6 +261,7 @@ footer {
 
 #experience {
     padding: 40px 0;
+    margin-left:20px;
     
 }
 
@@ -267,6 +269,7 @@ footer {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-left:20px;
 }
 
 .line {
