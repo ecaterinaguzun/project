@@ -39,21 +39,24 @@ body {
 #projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between;
 }
 
 .project {
-    width: calc(33.33% - 40px); /* Adjust the width to create a three-column layout with some spacing */
-    margin: 20px;
+    width: 48%
+    margin-bottom: 20px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 100%; 
+    }
 }
 
 .project img {
-    flex-grow: 1; /* Make the image fill the available space */
-    object-fit: cover;
+    height: 200px; 
+    object-fit: cover; 
 }
 
 .project-title {
@@ -61,15 +64,8 @@ body {
 }
 
 .project-description {
-    height: 80px;
-    overflow: hidden;
-}
-
-@media (max-width: 768px) {
-    .project {
-        width: calc(100% - 40px); /* Adjust the width for smaller screens */
-        margin: 20px 0;
-    }
+    height: 80px; 
+    overflow: hidden; 
 }
 
 
