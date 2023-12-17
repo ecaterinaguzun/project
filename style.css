@@ -6,6 +6,8 @@ body {
 
 .experience-item {
     position: relative;
+    border:solid 4px purple;
+    padding:10px;
         }
 
 .experience-item .line {
