@@ -253,7 +253,7 @@ footer {
 
 footer form {
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
 }
 
 footer label {
