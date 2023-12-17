@@ -311,33 +311,37 @@ footer {
     height: 100%;
     transform: translateX(-50%);
 }
+
 #projects .project {
-    width: 48%; 
+    width: 48%;
     margin-bottom: 20px;
     box-sizing: border-box;
-    }
+    background-color: #ECF2FF; /* Set the background color for the project boxes */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift effect */
+}
 
 @media (max-width: 768px) {
     #projects .project {
         width: 100%;
-        }
     }
+}
 
 .project img {
     height: 200px;
     object-fit: cover;
-    }
+}
 
 .project-title {
     margin-top: 10px;
-    }
+}
 
 .project-description {
     height: 80px;
     overflow: hidden;
-    }
+}
 
 .project:nth-child(odd) {
-    margin-right: 20px; /* Add margin only to odd-numbered projects to create space between them */
-    }
-
+    margin-right: 20px;
+}
