@@ -6,17 +6,10 @@ body {
 
 .experience-item {
     position: relative;
+    border-left:solid purple;
     padding:20px;
         }
 
-.experience-item .line {
-    position: absolute;
-    left: 0;
-    background-color: purple;
-    width: 2px;
-    height: 100%;
-
-}
 
 
 
