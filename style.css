@@ -40,35 +40,34 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: flex-start; /* Align items to the top */
 }
 
-
 .project {
-    width: 18rem;
+    width: calc(33.33% - 40px); /* Adjust the width to create a three-column layout with some spacing */
     margin: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .project img {
-    height: 200px; 
-    object-fit: cover; 
+    flex-grow: 1; /* Make the image fill the available space */
+    object-fit: cover;
 }
-
 
 .project-title {
     margin-top: 10px;
 }
 
-
 .project-description {
-    height: 80px; 
-    overflow: hidden; 
+    height: 80px;
+    overflow: hidden;
 }
-
 
 @media (max-width: 768px) {
     .project {
-        width: 100%;
+        width: calc(100% - 40px); /* Adjust the width for smaller screens */
         margin: 20px 0;
     }
 }
