@@ -159,8 +159,9 @@ h1{
     font-family: 'Kaoly Demo', cursive;
 }
 
-h2, h3{
+h2{
     color: #9E4784;
+    background-color: #F1EAFF;
 }
 
 nav {
