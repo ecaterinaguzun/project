@@ -71,14 +71,26 @@ body {
 }
 
 #projects .project {
-        margin-bottom: 30px;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        display: inline-block;
-        margin-right: 20px; /* Adjust the space between videos */
+    width: calc(50% - 20px); 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #ECF2FF;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    #projects .project {
+        width: 100%;
+        margin-right: 0;
     }
+
+.project:nth-child(odd) {
+        margin-right: 0; 
+    }
+}
+
 
 #projects .project img {
         width: 100%;
@@ -115,12 +127,6 @@ body {
     width: 48%
     margin-bottom: 20px;
     box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-    .project {
-        width: 100%; 
-    }
 }
 
 .project img {
@@ -339,30 +345,7 @@ footer {
     position: relative;
 }
 
-.experience-item .line {
-    position: absolute;
-    left: 50%;
-    background-color: purple;
-    width: 2px;
-    height: 100%;
-    transform: translateX(-50%);
-}
 
-#projects .project {
-    width: 48%;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    background-color: #ECF2FF; /* Set the background color for the project boxes */
-    border-radius: 8px; /* Add border-radius for rounded corners */
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift effect */
-}
-
-@media (max-width: 768px) {
-    #projects .project {
-        width: 100%;
-    }
-}
 
 .project img {
     height: 200px;
@@ -378,6 +361,3 @@ footer {
     overflow: hidden;
 }
 
-.project:nth-child(odd) {
-    margin-right: 20px;
-}
