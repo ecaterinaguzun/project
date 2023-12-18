@@ -251,6 +251,7 @@ ul.sparkly-bullets li::before {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: -90px;
 }
 
 form {
