@@ -16,28 +16,28 @@ body {
             padding: 40px 0;
         }
 
-        #skills ul {
+#skills ul {
             list-style: none;
             padding: 0;
             text-align: center;
         }
 
-        #skills li {
+#skills li {
             margin-bottom: 8px;
             color: #2D2727;
         }
 
-        #skills span {
+#skills span {
             color: #AE445A;
         }
 
-        #additional-logos {
+#additional-logos {
             background-color: #F2F2F2;
-            padding: 40px 0;
+            padding: 40px 40px;
             text-align: center;
         }
 
-        .logo {
+.logo {
             display: inline-block;
             margin: 10px;
         }
@@ -46,6 +46,10 @@ body {
             max-width: 50px;
             height: auto;
         }
+
+.skill-title {
+    color: #57375D;
+}
 
 .container {
     width: 80%;
